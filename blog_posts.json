@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "First Blog",
+        "content": "Hey my first Blog :)",
+        "author": "Aroo",
+        "likes": 1
+    },
+    {
+        "id": 2,
+        "title": "Sun",
+        "content": "Did you know?\r\n\r\nSun is a star.",
+        "author": "Are",
+        "likes": 1
+    }
+]

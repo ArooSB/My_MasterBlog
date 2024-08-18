@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0a3b8; /* Pastel pink background */
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.post:hover {
+  background-color: #e75480; /* Hover color */
+  color: #fff; /* Text color on hover for contrast */
+}
+
+.post h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.post-meta {
+  color: #777;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+.post p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Adds space between buttons */
+  margin-top: 15px;
+}
+
+button {
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #d796a9; /* Hover color for buttons */
+  color: #fff; /* Text color on hover for contrast */
+}
+
+button:focus {
+  outline: none; /* Removes default focus outline */
+}
+
+.no-posts {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.add-blog {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-blog a {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-blog a:hover {
+  background-color: #45a049;
+}
